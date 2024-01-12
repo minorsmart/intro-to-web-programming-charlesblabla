@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00ff1a; /* Groene achtergrondkleur */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #eee;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#about-smart\ business {
+    overflow: hidden;
+}
+
+#about-smart\ business img {
+    float: inline-end;
+    margin: 0 0 90px 90px;
+}
+
+/* Nieuwe CSS-regel voor de secties */
+section {
+    display: inline-block;
+    width: 30%; /* Pas de breedte aan zoals gewenst */
+    vertical-align: top; /* Zorg ervoor dat de secties bovenaan uitgelijnd zijn */
+    margin: 10px;
+}
+
+/* Stijl voor de koppen binnen de secties */
+section h2 {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+
+    section {
+        display: block; /* Zet de display property naar block om elementen onder elkaar te plaatsen */
+        width: 100%; /* Volledige breedte van de container */
+        margin-bottom: 20px; /* Voeg wat ruimte toe tussen secties */
+    }
+    
+    /* Stijl voor de koppen binnen de secties */
+    section h2 {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+    }
+    
+    /* Stijl voor de afbeeldingen binnen de secties */
+    section img {
+        max-width: 100%; /* Zorg ervoor dat de afbeelding niet breder wordt dan zijn container */
+        margin-bottom: 10px; /* Voeg wat ruimte toe onder de afbeelding */
+    }
+}
